@@ -65,6 +65,7 @@ if ( ! function_exists( 'stm_get_price_currency_child' ) ) {
 }
 
 if ( ! function_exists( 'stm_getCurrencySelectorHtml' ) ) {
+
 	function stm_getCurrencySelectorHtml() {
 		$show_currency_select = apply_filters( 'stm_me_get_nuxy_mod', false, 'top_bar_currency_enable' );
 		$currency_list        = apply_filters( 'stm_me_get_nuxy_mod', '', 'currency_list' );
