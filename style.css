@@ -1,0 +1,115 @@
+/*
+	Theme Name: Motors - Child Theme
+	Theme URI: http://motors.stylemixthemes.com/
+	Author: StylemixThemes
+	Author URI: http://stylemixthemes.com/
+	Description: Motors Child theme
+	Version: 3.2
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Tags: blue, red, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, editor-style, sticky-post, theme-options
+	Text Domain: motors-child
+    Template: motors
+
+    This theme, like WordPress, is licensed under the GPL.
+    Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Add your own styles here */
+
+/*.car-meta-description {*/
+/*    --max-lines: 3;*/
+/*    position: relative;*/
+/*    max-height: calc(1.4rem * var(--max-lines));*/
+/*    overflow: hidden;*/
+/*    padding-right: 1rem;*/
+/*}*/
+
+/*.car-listing-row .listing-car-item-meta .price .regular-price {*/
+/*    font-weight: 700;*/
+/*}*/
+
+/*.stm-template-car_dealer .car-listing-tabs-unit .car-listing-row .image, .stm-template-car_dealer_elementor .car-listing-tabs-unit .car-listing-row .image, .stm-elementor_listings_carousel .image, .car-listing-row .image, .listing-car-item-inner .image, .listing-list-loop .image .image-inner, .motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a img, .motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-single-image img, .motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery {*/
+/*    border-radius: 10px;*/
+/*}*/
+
+.car-prices {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.car-prices p {
+    margin-bottom: 0;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.car-prices p span {
+    font-weight: 400;
+}
+
+.car-listing-row .car-meta-top {
+    border-bottom: none !important;
+}
+
+.car-prices-list {
+    float: right;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+.car-prices-list p span {
+    margin-right: 5px;
+}
+
+.listing-cars-carousel .car-prices p {
+    color: #fff;
+}
+
+.single-car-prices .single-regular-sale-price p {
+    margin-bottom: 0;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+.single-car-prices .single-regular-sale-price {
+    padding: 14px 10px 12px;
+}
+
+.single-car-prices .single-regular-sale-price p span {
+    font-weight: 400;
+}
+
+.brazzers-wrap .listing-car-item-meta {
+    display: none;
+}
+
+.single-car-data > table tr td.t-value {
+    width: 55%;
+}
+
+.stm-line-through {
+    text-decoration: line-through;
+}
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-single-image img {
+    max-height: 99px;
+}
+.motors-elementor-search-results-wrap .stm-isearch-results-carousel .swiper-slide .stm-template-front-loop .image img {
+    max-height: 160px;
+}
+
+.single-regular-price > .h3 {
+    font-size: 18px;
+}
+
+.stm-icon-car_search {
+	display: none !important;
+}

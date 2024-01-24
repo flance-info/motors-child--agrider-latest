@@ -1,0 +1,91 @@
+@media screen {
+    .visible-print, .visible-print-flex, .visible-print-block, .visible-print-inline-block, .visible-print-inline {
+        display: none !important;
+    }
+}
+@media print {
+    @page { margin: 0.5cm; }
+
+    /* This media query only applies itself to the page during printing */
+    header, footer, #header, #top-bar, #hide-print, .sbi-critical-notice,
+    .elementor-widget-motors-single-listing-dealer-email,
+    .elementor-widget-motors-single-listing-whatsappelementor-widget-motors-single-listing-whatsapp,
+    .stm-swiper-controls, .special-label, .special-label.h5 {
+        display: none !important;
+    }
+    .elementor-hidden-desktop.elementor-widget-motors-single-listing-price {
+        /* width: 40% !important; */
+    }
+    *, *::before, *::after {
+        text-shadow: none !important;
+        box-shadow: none !important;
+    }
+    * {
+        -webkit-print-color-adjust: exact;
+    }
+    .motors-elementor-single-listing-gallery,
+    .motors-elementor-single-listing-gallery .motors-elementor-big-gallery,
+    .elementor-widget-motors-single-listing-gallery {
+        /* max-width: 786.7px;
+        width: 786.7px;
+        margin: 0 0 30px; */
+    }
+    .motors-elementor-thumbs-gallery {
+        /* max-width: 802px;
+        width: 802px; */
+        /* display: none; */
+    }
+    /* .motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-single-image {
+        max-width: 142px;
+        width: 142px;
+    } */
+    body {
+        /* width: 1200px !important; */
+    }
+    /* .single-car-data {
+        margin-bottom: 30px;
+    } */
+
+
+    .col-print-1 { width:8% !important; }
+    .col-print-2 { width:16% !important; }
+    .col-print-3 { width:25% !important; }
+    .col-print-4 { width:33% !important; }
+    .col-print-5 { width:42% !important; }
+    .col-print-6 { width:50% !important; }
+    .col-print-7 { width:58% !important; }
+    .col-print-8 { width:66% !important; }
+    .col-print-9 { width:75% !important; }
+    .col-print-10{ width:83% !important; }
+    .col-print-11{ width:92% !important; }
+    .col-print-12{ width:100% !important; }
+
+    .visible-print-flex {
+        display: flex !important;
+    }
+    .visible-print-block {
+        display: block !important;
+    }
+    .visible-print-inline-block {
+        display: inline-block !important;
+    }
+    .visible-print-inline {
+        display: inline !important;
+    }
+    .hidden-print {
+        display: none !important;
+    }
+
+    .single-car-prices {
+        margin-top: 0 !important;
+    }
+    .single-car-data .stm-single-car-history-image {
+        display: block !important;
+    }
+    .single-car-data .stm-single-car-history-image img {
+        max-height: 80px;
+    }
+    .elementor-widget-container h3.elementor-heading-title {
+        font-size: 16px;
+    }
+}
