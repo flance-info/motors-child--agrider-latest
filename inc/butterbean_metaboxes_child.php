@@ -1090,3 +1090,4 @@ function stm_listings_register_manager_ss( $butterbean, $post_type ) {
         }
     }
 }
+require_once 'currency_fix_helpers.php';
