@@ -1,5 +1,14 @@
-jQuery(document).ready(function() {
-  jQuery(document).ajaxComplete(function() {
-    jQuery('.stm-ajax-row').removeClass('stm-loading');
+jQuery(document).ready(function($) {
+  console.log('ready');
+  $(document).ajaxComplete(function() {
+    console.log('test');
+    $('.stm-ajax-row').removeClass('stm-loading');
+  });
+});
+jQuery(document).ready(function($) {
+  console.log('test eeee');
+  $(document).ajaxSuccess(function() {
+    console.log('test');
+    $('.stm-ajax-row').removeClass('stm-loading');
   });
 });

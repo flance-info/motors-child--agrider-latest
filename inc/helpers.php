@@ -18,6 +18,8 @@ add_filter('stm_get_car_listings', function ($labels) {
 
 
 function enqueue_help_custom_scripts() {
-  wp_enqueue_script( 'help-custom-script', get_stylesheet_directory_uri() . '/assets/js/helpers.js', array('jquey'), time(), true );
+  wp_enqueue_script( 'help-custom-script', get_stylesheet_directory_uri() . '/assets/js/helpers.js', array('jquery'), time(), true );
+  wp_dequeue_script('stm-theme-scripts-ajax');
+  wp_enqueue_script('stm-theme-scripts-ajax', get_stylesheet_directory_uri() . '/assets/js/app-ajax.js', array('jquery', 'jquery-cookie'), time(), true);
 }
 add_action('wp_enqueue_scripts', 'enqueue_help_custom_scripts');

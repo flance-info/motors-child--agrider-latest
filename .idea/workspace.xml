@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48aeb771-62b8-4269-8d5e-4f7be5f08c5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listings/loop/default/grid/data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/helpers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <workItem from="1706086197585" duration="5146000" />
       <workItem from="1706774473291" duration="3035000" />
       <workItem from="1706782275625" duration="301000" />
-      <workItem from="1706851318446" duration="1115000" />
+      <workItem from="1706851318446" duration="3048000" />
     </task>
     <servers />
   </component>
