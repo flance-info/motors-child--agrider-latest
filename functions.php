@@ -37,7 +37,7 @@ function motors_child_setup() {
 add_action( 'after_setup_theme', 'motors_child_setup' );
 
 require_once get_stylesheet_directory().'/inc/butterbean_metaboxes_child.php';
-
+require_once get_stylesheet_directory().'/inc/helpers.php';
 
 add_filter('stm_ew_locate_template', function ($located, $templates){
 
@@ -74,9 +74,15 @@ function multi_change_translate_text( $translated ) {
 }
 add_filter( 'gettext', 'multi_change_translate_text', 20 );
 
+
 function add_space_before_euro_symbol( $content ) {
-    $content = preg_replace('/(\d)(€)/', '$1 $2', $content);
+    $content = preg_replace('/(\d)(€)/u', '$1 $2', $content);
     return $content;
 }
 
-add_filter( 'the_content', 'add_space_before_euro_symbol', 20 );
+add_filter('the_content', 'add_space_before_euro_symbol');
+
+function remove_title_function() {
+    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/assets/js/remove-title.js', array(), '1.0', true );
+}
+add_action( 'wp_footer', 'remove_title_function' );
